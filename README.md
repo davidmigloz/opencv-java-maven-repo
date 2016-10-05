@@ -6,33 +6,25 @@ Add to your Maven project `pom.xml`:
 
 ```xml
 <project>
-  
   <!-- ... -->
-  
-  <dependencies>
-    
-    <!-- ... -->
-    
+  <dependencies>   
+    <!-- ... -->  
     <dependency>
       <!-- OpenCV API -->
       <groupId>com.davidmiguel</groupId>
       <artifactId>opencvjar</artifactId>
       <version>3.1.0</version>
-    </dependency>
-    
+    </dependency>  
     <dependency>
-      <!-- OpenCV API -->
+      <!-- OpenCV native libs -->
       <groupId>com.davidmiguel</groupId>
-      <artifactId>opencvjar</artifactId>
+      <artifactId>opencvjar-runtime</artifactId>
       <version>3.1.0</version>
-    </dependency>
-    
+      <classifier>natives-windows-x86_64</classifier>
+    </dependency>   
     <!-- ... -->
-    
-  </dependencies>
-  
+  </dependencies> 
   <!-- ... -->
-  
   <repositories>
       <repository>
           <id>opencv-maven-repo</id>
@@ -40,16 +32,6 @@ Add to your Maven project `pom.xml`:
       </repository>
   </repositories>
 </project>
-```
-
-
-```xml
-<repositories>
-    <repository>
-        <id>opencv-maven-repo</id>
-        <url>https://raw.github.com/davidmigloz/opencv-java-maven-repo/master</url>
-    </repository>
-</repositories>
 ```
 
 ## Versions supported
