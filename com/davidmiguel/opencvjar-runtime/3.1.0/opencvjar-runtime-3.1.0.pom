@@ -6,6 +6,5 @@
     <groupId>opencvjar-runtime</groupId>
     <artifactId>opencvjar-runtime</artifactId>
     <version>3.1.0</version>
-    <classifier>natives-windows-x86_64</classifier>
     <description>OpenCV 3.1.0</description>
 </project>
