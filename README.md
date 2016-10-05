@@ -2,6 +2,8 @@
 
 OpenCV Java bindings packaged with native libraries to be imported as Maven dependecy.
 
+## Usage
+
 Add to your Maven project `pom.xml`:
 
 ```xml
