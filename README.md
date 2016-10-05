@@ -36,7 +36,7 @@ Add to your Maven project `pom.xml`:
 </project>
 ```
 
-In your Java class:
+And load OpenCV in your Java class:
 
 ```java
 public class App {
