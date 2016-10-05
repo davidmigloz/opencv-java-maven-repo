@@ -36,6 +36,18 @@ Add to your Maven project `pom.xml`:
 </project>
 ```
 
+In your Java class:
+
+```java
+public class App {
+    static{ System.loadLibrary(Core.NATIVE_LIBRARY_NAME); }
+
+    public static void main(String[] args) {
+        System.out.println("Welcome to OpenCV " + Core.VERSION);
+    }
+}
+```
+
 ## Versions supported
 
 - OpenCV 3.0.0
