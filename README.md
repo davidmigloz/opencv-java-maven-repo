@@ -15,13 +15,13 @@ Add to your Maven project `pom.xml`:
       <!-- OpenCV API -->
       <groupId>com.davidmiguel</groupId>
       <artifactId>opencvjar</artifactId>
-      <version>3.1.0</version>
+      <version>3.2.0</version>
     </dependency>  
     <dependency>
       <!-- OpenCV native libs -->
       <groupId>com.davidmiguel</groupId>
       <artifactId>opencvjar-runtime</artifactId>
-      <version>3.1.0</version>
+      <version>3.2.0</version>
       <classifier>natives-windows-x86_64</classifier>
     </dependency>   
     <!-- ... -->
