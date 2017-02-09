@@ -52,6 +52,7 @@ public class App {
 
 - OpenCV 3.0.0
 - OpenCV 3.1.0
+- OpenCV 3.2.0
 
 ## Platforms supported
 
@@ -59,3 +60,16 @@ OS | Architecture
 --- | ---
 Windows | natives-windows-x86
 Windows | natives-windows-x86_64
+
+## License
+
+[3-clause BSD License](https://github.com/opencv/opencv/blob/master/LICENSE)
+
+Copyright (C) 2000-2016, Intel Corporation, all rights reserved.  
+Copyright (C) 2009-2011, Willow Garage Inc., all rights reserved.  
+Copyright (C) 2009-2016, NVIDIA Corporation, all rights reserved.  
+Copyright (C) 2010-2013, Advanced Micro Devices, Inc., all rights reserved.  
+Copyright (C) 2015-2016, OpenCV Foundation, all rights reserved.  
+Copyright (C) 2015-2016, Itseez Inc., all rights reserved.  
+Third party copyrights are property of their respective owners.
+
